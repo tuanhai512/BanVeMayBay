@@ -1,25 +1,28 @@
-import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
-import React from 'react'
+import React, { Component } from "react";
+import RadioButton from './RadioButton';
+import Tabs from "./Tabs";
+import Panel from "./Panel";
 
+import "./Tab.css";
 
+class TabForm extends Component {
 
-const CustomTab = ({ children }) => (
-  <Tab>
-    <h1>{children}</h1>
-  </Tab>
-);
+  render() {  
+    return (
+      <div className="main-container"> 
+        <Tabs className="Tabs" /*tab cha*/ > 
+          <Panel title="All Names" className="Panel"/*tabs con*/>
+          <div className="content" /*Hiển thị nội dung tabs con */>
+            <RadioButton/>
+          </div> 
+          </Panel>
+          <Panel title="In Review Candidates" className="Panel">
+          <div className="content"><a>abcd</a></div> 
+          </Panel>
+        </Tabs>
+      </div>
+    );
+  }
+}
 
-CustomTab.tabsRole = 'Tab'; // Required field to use your custom Tab
-
-const TabForm = () => (
-  <Tabs>
-    <TabList>
-      <CustomTab>Custom Tab 1</CustomTab>
-      <CustomTab>Custom Tab 2</CustomTab>
-    </TabList>
-    <TabPanel>Panel 1</TabPanel>
-    <TabPanel>Panel 2</TabPanel>
-  </Tabs>
-);
-
-export default TabForm
+export default TabForm;
