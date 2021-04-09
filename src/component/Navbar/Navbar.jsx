@@ -6,6 +6,8 @@ import { SidebarData } from './SidebarData';
 import { MenuItem } from './MenuItem';
 import './Navbar.css';
 import { IconContext } from 'react-icons';
+import {SidebarData2} from './SidebarData2';
+
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false); //Trạng thái ban đầu , trạng thái sau khi thay đổi
@@ -49,6 +51,17 @@ function Navbar() {
                   </Link>
                 </li>
               );
+            })}
+            <hr/>
+            {SidebarData2.map((item, index) => {
+                return (
+                  <li key={index} className={item.cName}>
+                    <Link to={item.path}>
+                      {item.icon}
+                      <span>{item.title}</span>
+                    </Link>
+                  </li>
+                );
             })}
           </ul>
         </nav>

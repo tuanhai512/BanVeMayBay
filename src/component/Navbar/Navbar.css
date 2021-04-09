@@ -27,6 +27,8 @@
 .nav-menu.active {
   left: 0;
   transition: 350ms;
+  overflow: auto !important;
+  height: auto;
 }
 
 .nav-text {
@@ -43,7 +45,7 @@
 .nav-text a {
   text-decoration: none;
   color: black;
-  font-size: 18px;
+  font-size: 14px;
   width: 95%;
   height: 100%;
   display: flex;
@@ -89,7 +91,7 @@ span {
 }
 #modal >ul{
   width:400px;
-  height: 100%;
+  height: auto !important;
   background-color: white;
   position: absolute;
   margin-top: 0px;

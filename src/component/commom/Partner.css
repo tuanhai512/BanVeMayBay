@@ -5,6 +5,7 @@
 }
 .partner-form{
     padding-left: 230px;
+
 }
 .partner-content{
     display: flex;
@@ -16,4 +17,19 @@
 }
 .partner-content .icon-partner{
     margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.partner-content .icon-paypal{
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.content-partner{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.partner-content .icon-partner a img {
+    width: 80px;
+   
 }
