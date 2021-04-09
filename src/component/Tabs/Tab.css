@@ -1,29 +1,27 @@
 body {
   background-color: rgb(255, 255, 255);
 }
-
 .main-container{
   font-family:Arial, Helvetica, sans-serif;
   text-align:center;
   overflow:hidden;
   margin-top: -52px;
-  background-color:aqua;
-  width: 800px;
-  left: 30%;
+  width: 100%;
   position:absolute;
+
 }
 .main-container > ul
 {
-  left: 0;
+  left: 15%;
   position:absolute;
   margin-top: -8px;
-  background-color: aqua;
-
+  background-color:  rgb(56, 148, 235);
 }
 .tab{
   width: 800px;
   margin-top: 52px;
-  height: 200px;
+  height: 350px;
+  margin-left: 15%;
 }
 .Tabs {
   width: 30%;
@@ -39,10 +37,6 @@ body {
   padding: 0;
 
 }
-.main-container > ul > li{
-  background-color: aliceblue;
-}
-
 .main-container > ul,.main-container > ul > li {
   display: inline-block;
   margin-left: 0;
@@ -52,21 +46,27 @@ body {
   font-weight: 300;
   cursor: pointer;
   color: #aaa;
-  margin-top: 1px;
+  margin-top: 2px;
   margin-right: 10px;
   margin-bottom: -10px;
   padding-top: 10px;
- 
- 
-}
-
-ul.Panel,
-li.selected {
-  background-color: blueviolet;
-  color: #444;
 }
 .content{
-  background-color: red;
-  height: 200px;
+  background-color: rgb(255, 255, 255);
+  height: 250px;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  position: relative;
+  box-shadow: -3px 3px rgba(0, 0,0, 0.3);
+  width: 880px;
 }
-
+.main-container > ul > li{
+  background-color: white;
+}
+li.selected:not(:last-of-type)
+{
+  background-color:purple
+}
+li.selected:not(:first-of-type){
+  background-color: blue;
+}

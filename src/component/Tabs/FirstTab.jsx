@@ -1,19 +1,18 @@
 import React,{useState} from 'react'
-import './RadioButton.css';
+import './FirstTab.css';
 import './Destination';
 import { Destination } from './Destination';
 import {AiOutlineSearch} from 'react-icons/ai';
 
-function RadioButton() {
+function FirstTab() {
     const [choice,setChoice]=useState('');
 
     const handleChange=(e)=>{
         setChoice( e.target.value);
     }
 
-
     return(
-    <div className="button-form">
+    <div className="button-form-first">
         <form className="radio-form">
             <input type="radio" value="male" id="male"
                 onChange={handleChange} name="gender" className="button-radio"/>
@@ -99,4 +98,4 @@ function RadioButton() {
     );
 }
 
-export default RadioButton
+export default FirstTab

@@ -3,11 +3,11 @@
     padding: 0;
 }
 .background-slider{
-    height: 380px;
-    background-color: aqua;
+    height: 340px;
+    background-color: rgb(56, 148, 235);
 }
 .slider{
-    background-color: aqua;
+    background-color: rgb(56, 148, 235);
     height: auto;
 }
 .card-wrapper{

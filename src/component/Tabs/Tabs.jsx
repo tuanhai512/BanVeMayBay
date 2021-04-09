@@ -18,9 +18,11 @@ class Tabs extends Component {
             return (
               <li
                 key={index}
-                className={style} //xác định vị trí tabs trỏ vào và hiện nội dung tab đó              
+                className={style}
+                 //xác định vị trí tabs trỏ vào và hiện nội dung tab đó              
                 onClick={() => this.handleChange(index)}
               >
+               
                 {elem.props.title}
               </li>
             );

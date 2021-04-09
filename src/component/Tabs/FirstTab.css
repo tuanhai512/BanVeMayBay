@@ -1,6 +1,3 @@
-.button-form{
-    top: 2px;
-}
 .radio-form{
     position:absolute;
     left: 0;
@@ -22,6 +19,7 @@
 .bottom-form{
     margin-top: 20px;
     display: flex;
+
 }
 .select-area{
     margin-top: 20px;
@@ -31,4 +29,7 @@
 }
 .checkbox-area{
     margin-right: 160px;
+}
+.button-form-first{
+    border-top: 2px solid purple;
 }

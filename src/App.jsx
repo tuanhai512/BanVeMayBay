@@ -6,12 +6,15 @@ import Home from './pages/Home';
 import Reports from './pages/Reports';
 import Products from './pages/Products';
 import TabForm from './component/Tabs/TabForm';
+import Header from './component/Header/Header';
+import Partner from './component/commom/Partner';
 
 function App() {
   return (
     <>
     <Router>
         <Navbar />
+        <Header/>
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/reports' component={Reports} />
@@ -20,6 +23,7 @@ function App() {
       </Router>
     <Carousel/>
     <TabForm/>
+    <Partner/>
     </>
   );
 }
