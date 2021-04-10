@@ -3,7 +3,7 @@ import './FirstTab.css';
 import './Destination';
 import { Destination } from './Destination';
 import {AiOutlineSearch} from 'react-icons/ai';
-
+import {Link} from 'react-router-dom';
 function FirstTab() {
     const [choice,setChoice]=useState('');
 
@@ -88,10 +88,12 @@ function FirstTab() {
                 </div>                      
         </form>
         <form className="search-form">
+           
                 <button className="search-button">
                     <AiOutlineSearch/>
-                    Tìm chuyến bay
+                   <Link to="/product"> Tìm chuyến bay</Link>
                 </button>
+           
         </form>
        
     </div>
