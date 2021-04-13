@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+.main-container{
+  font-family:Arial, Helvetica, sans-serif;
+  text-align:center;
+  overflow:hidden;
+  margin-top: -52px;
+  width: 100%;
+  position:absolute;
+
+}
+.main-container > ul
+{
+  left: 15%;
+  position:absolute;
+  margin-top: -8px;
+  background-color:  rgb(56, 148, 235);
+}
+.tab{
+  width: 800px;
+  margin-top: 52px;
+  height: 350px;
+  margin-left: 15%;
+}
+.Tabs {
+  width: 30%;
+  font-family: sans-serif;
+  position: absolute;
+  color: #444;
+  left: 35%;
+  border: 1px solid black;
+  margin-left: 100px;
+}
+.Tabs ul.Panel {
+  list-style: none;
+  padding: 0;
+
+}
+.main-container > ul,.main-container > ul > li {
+  display: inline-block;
+  margin-left: 0;
+  padding: 0px 0px 10px 0px;
+  transition: all 0.5s;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+  color: #aaa;
+  margin-top: 2px;
+  margin-right: 10px;
+  margin-bottom: -10px;
+  padding-top: 10px;
+}
+.content{
+  background-color: rgb(255, 255, 255);
+  height: 250px;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  position: relative;
+  box-shadow: -3px 3px rgba(0, 0,0, 0.3);
+  width: 880px;
+}
+.main-container > ul > li{
+  background-color: white;
+}
+li.selected:not(:last-of-type)
+{
+  background-color:purple
+}
+li.selected:not(:first-of-type){
+  background-color: blue;
+}
