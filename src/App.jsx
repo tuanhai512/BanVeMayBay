@@ -8,6 +8,8 @@ import Products from './pages/Products';
 import TabForm from './component/Tabs/TabForm';
 import Header from './component/Header/Header';
 import Partner from './component/commom/Partner';
+import CartForm from './component/Cart/CartForm';
+import Tabcartform from './component/Cart/Tabcartform';
 
 function App() {
   return (
@@ -16,14 +18,20 @@ function App() {
         <Navbar />
         <Header/>
         <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/reports' component={Reports} />
+          <Route path='/' exact component={Home}>
+          <Carousel/>
+    <TabForm/>
+    <Partner/>
+          </Route>
+          <Route path='/reports' >
+          <CartForm/>
+
+
+          </Route>
           <Route path='/products' component={Products} />
         </Switch>
       </Router>
-    <Carousel/>
-    <TabForm/>
-    <Partner/>
+   
     </>
   );
 }

@@ -5,11 +5,11 @@ import { Destination } from './Destination';
 import {AiOutlineSearch} from 'react-icons/ai';
 
 function SecondTab() {
-    const [choice,setChoice]=useState('');
+   /* const [choice,setChoice]=useState('');
 
     const handleChange=(e)=>{
         setChoice( e.target.value);
-    }
+    }*/
 
 
     return(
