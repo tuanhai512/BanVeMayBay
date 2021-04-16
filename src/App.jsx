@@ -8,6 +8,10 @@ import Reports from './pages/Reports';
 import Products from './pages/Products';
 import Cart from './pages/Cart';
 import Header from './component/Header/Header';
+import Partner from './component/commom/Partner';
+import CartForm from './component/Cart/CartForm';
+import Tabcartform from './component/Cart/Tabcartform';
+
 function App() {
   return (
     <>
@@ -15,8 +19,16 @@ function App() {
         <Navbar />
         <Header/>
         <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/reports' component={Reports} />
+          <Route path='/' exact component={Home}>
+          <Carousel/>
+    <TabForm/>
+    <Partner/>
+          </Route>
+          <Route path='/reports' >
+          <CartForm/>
+
+
+          </Route>
           <Route path='/products' component={Products} />
           <Route path='/cart' component={Cart} 
           />
