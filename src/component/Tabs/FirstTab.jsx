@@ -16,11 +16,11 @@ function FirstTab() {
         <form className="radio-form">
             <input type="radio" value="male" id="male"
                 onChange={handleChange} name="gender" className="button-radio"/>
-            <label for="male">Male</label>
+            <label for="male">One-way / Round-trip</label>
 
             <input type="radio" value="female" id="female"
                 onChange={handleChange} name="gender" className="button-radio"/>
-            <label for="female">Female</label>
+            <label for="female">Multi-city</label>
 
         </form>
         <form className="select-form">

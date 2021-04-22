@@ -1,0 +1,14 @@
+.booking-body {
+    box-sizing: border-box;
+    color: #434343;
+    font-family: MuseoSans,sans-serif;
+    font-weight: 300;
+}
+.booking-body-CanhDeu2Ben {
+    margin: 0 auto;
+    width: 900px;
+}
+.booking-body-CanhDeuTrenDuoi {
+    margin-top: 80px;
+    margin-bottom: 200px;
+}

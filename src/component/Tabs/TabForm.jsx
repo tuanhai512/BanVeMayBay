@@ -12,12 +12,12 @@ class TabForm extends Component {
     return (
       <div className="main-container"> 
         <Tabs className="Tabs" /*tab cha*/> 
-          <Panel title="All Names" className="Panel"/*tabs con*/>
+          <Panel title=" Flight " className="Panel"/*tabs con*/>
           <div className="content" /*Hiển thị nội dung tabs con */>
             <FirstTab/>
           </div> 
           </Panel>
-          <Panel title="In Review Candidates" className="Panel">
+          <Panel title="Flight + Hotel" className="Panel">
           <div className="content">
             <SecondTab/>
           </div> 

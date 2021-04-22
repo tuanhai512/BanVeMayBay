@@ -1,5 +1,19 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+import {render} from '@testing-library/jest-dom'
 
-const sum = require('./sum');
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
-});
+import Carousel from '../component/Carousel/Carousel'
+import Slider from 'react-slick'
+
+
+it('renders without crashing', ()=>{
+  const div = document.createElement('div');
+  ReactDOM.render(<Carousel/>,div)
+  ReactDOM.unmountComponentAtNode(div)
+  
+})
+it('renders children',() => {
+  const {getByText} = render(<div><Carousel><Slider><h2>Content</h2></Slider></Carousel></div>);
+  const children = getByText('Content');
+  expect(children).toBeInTheDocument();
+})
