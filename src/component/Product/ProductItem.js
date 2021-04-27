@@ -55,7 +55,6 @@ export default function ProductItem({cName, start, title, time_start, time_end, 
       <Collapse isOpened={isOpen}>
         <ItemChild start={start} isOpen></ItemChild>
       </Collapse>
-      
     </div>
   )
 }
