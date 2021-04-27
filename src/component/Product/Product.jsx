@@ -1,7 +1,7 @@
-import React, { useState, useEffect, Component } from "react";
-import "./Product.css";
+import React from "react";
 import { dataproducts } from "./dataproducts";
-import childItem from "./childItem";
+import "./Product.css";
+import ProductItem from "./ProductItem";
 
 function Product() {
   // const [products,setProducts] = useState([]);
@@ -21,22 +21,12 @@ function Product() {
         return productsFromServer.data;
     }
     */
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
 
-  const handleClick = (item, index) => {
-    index++;
-    console.log(index);
-    console.log({ item });
+  function handleClick(index) {
+    return [...dataproducts, ]
+  }
 
-    dataproducts.forEach((item) => {
-        if (item.id === index) {
-            setIsOpen(!isOpen)
-        }
-        // else {
-        //     setIsOpen(false);
-        // } push code len di anh fix may anh cho gio push sao anh bua anh chi em quen roi
-    })
-  };
 
   return (
     <div className="body">
@@ -71,49 +61,13 @@ function Product() {
       <div className="center-product">
         {dataproducts.map((item, index) => {
           // onClick={()=> setIsOpen(!isOpen)}
-          return (
-            <div onClick={() => handleClick(item, index)}>
-              <div key={item.id} className="card-flight">
-                <div className="collapsible" value={item.id}>
-                  <div>
-                    <div className="flight-content-left">
-                      <div className={item.cName}>
-                        <a>{item.title}</a>
-                      </div>
-                      <div className="{item.cName} item2">
-                        <a>{item.time_start}</a>
-                        <br />
-                        <a>{item.start}</a>
-                      </div>
-                      <div className="{item.cName} item2">
-                        <a>{item.time_end} </a>
-                        <br />
-                        {item.end}
-                      </div>
-                      <div className={item.cName}>
-                        <a>{item.time}</a>
-                        <br />
-                        <a>{item.style}</a>
-                      </div>
-                    </div>
-                    <div className="flight-content-bottom">
-                      <a>Chi tiết chuyến bay </a>
 
-                      <a>Chi tiết vé </a>
-                    </div>
-                  </div>
-                  <div className="flight-content-right">
-                    <div className={item.cName}>
-                      <a>{item.price}</a>
-                      <br />
-                      <div className="button-card">
-                        <a>Chọn</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              { isOpen && <div key={index} className="content"> {item.start}</div>}
+          return (
+            <div key={index}>
+              <ProductItem cName={item.cName} title={item.title} time_end={item.time_end} time_start={item.time_start}
+                start={item.start} style={item.style} price={item.price} time={item.time} isOpen={item.isOpen}
+              >
+            </ProductItem>
             </div>
           );
         })}
