@@ -66,7 +66,6 @@ function Product() {
             <div key={index}>
               <ProductItem cName={item.cName} title={item.title} time_end={item.time_end} time_start={item.time_start}
                 start={item.start} style={item.style} price={item.price} time={item.time} isOpen={item.isOpen}
-                onClick={handleClick}
               >
             </ProductItem>
             </div>

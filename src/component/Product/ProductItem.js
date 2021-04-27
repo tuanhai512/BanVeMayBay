@@ -6,7 +6,7 @@ export default function ProductItem({cName, start, title, time_start, time_end, 
  
  const [isOpen, setIsOpen] = useState(false)
  
- const onClick = ()=>{
+ const onClick = () => {
    setIsOpen(!isOpen)
  }
  
