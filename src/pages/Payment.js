@@ -4,7 +4,7 @@ import Paymentaside from '../component/Payment/Paymentaside';
 import Paymentform from '../component/Payment/Paymentform';
 import Stepbar from '../component/Payment/Stepbar';
 
-function Products() {
+function Payment() {
   return (
     
     <div className='paymentform'>
@@ -16,4 +16,4 @@ function Products() {
   );
 }
 
-export default Products;
+export default Payment;
