@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class tabSelectCart extends Component {
+class Paymentselecttab extends Component {
   state = {
     choose: this.props.choose || 0, //Tabs được trỏ vào là tab đầu tiên
   };
@@ -36,4 +36,4 @@ class tabSelectCart extends Component {
   }
 }
 
-export default tabSelectCart;
+export default Paymentselecttab;

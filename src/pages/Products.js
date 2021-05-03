@@ -1,10 +1,18 @@
 import React from 'react';
+import { BsTypeH2 } from 'react-icons/bs';
+import Paymentaside from '../component/Payment/Paymentaside';
+import Paymentform from '../component/Payment/Paymentform';
+import Stepbar from '../component/Payment/Stepbar';
 
 function Products() {
   return (
-    <div className='products'>
-   
+    
+    <div className='paymentform'>
+      
+      <Paymentform/>
+      <Paymentaside/>
     </div>
+    
   );
 }
 

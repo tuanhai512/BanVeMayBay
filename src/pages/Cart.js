@@ -1,11 +1,13 @@
 import React from 'react';
 
-import CartForm from"../component/Cart/CartForm";
+import CartForm from"../component/Cart/cartForm";
+import Paymentform from '../component/Payment/Paymentform';
 function Cart() {
   return (
-    <div className='cart'>
+    <div className='cart'>  
         <CartForm/>
     </div>
+    
   );
 }
 
