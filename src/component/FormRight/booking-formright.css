@@ -1,23 +1,8 @@
-._3HMVE {
-    padding: 16px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+.form-right {
+    width: 30%;
+    float: left;
 }
-._2huw8{
-    margin-left: auto;
-    padding-left: 8px;
-    cursor: pointer;
-    color: #0770CD;
-    font-size: 14px;
-    line-height: 20px;
-    white-space: normal;
-    -webkit-font-smoothing: antialiased;
-    font-weight: 700;
-}
+
 ._2si0n {
     background-color: rgba(0,0,0,.12);
     border: none;

@@ -4,6 +4,7 @@ import FirstName from './FirstName/FirstName.js'
 import LastName from './LastName/LastName.js'
 import Nationality from './Nationality/Nationality.js'
 import DateOfBirth from './DateOfBirth/DateOfBirth.js'
+import './td.css'
 
 export class TravelerDetails extends Component {
     render() {
@@ -12,7 +13,7 @@ export class TravelerDetails extends Component {
                 <h2 className="_2319d">Traveler Details</h2>
 				<div className="dkoq">
 					<div className="ff093">
-						<div className="_3HMVE">
+						<div className="TD-Top-text">
 							<h5 className="sad1d">Adult 1</h5>
 							<span className="_234w8">Fill In Details</span>
 						</div>

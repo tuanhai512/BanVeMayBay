@@ -1,33 +1,23 @@
-import './component/BookingHeader.css';
-import './component/reset.css';
-import './Main.css';
-import './component/Boxright.css';
-import Headling from './component/Headling.js';
-import Topview from './component/Topview.js';
-import BoxLeft from './component/BoxLeft.js';
-import BoxRight from './component/BoxRight.js';
+import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Products from './pages/Products';
+import Reports from './pages/Reports';
+import Reports1 from './pages/Reports1';
+
 
 function App() {
   return (
-	<div>
-		<Headling />
-		<div className="desktopV3">
-			<div>
-				<div className ="_2XbV5"></div>
-				<div>
-					<div>
-						<div className="_2XbV5">
-							<div className="_6gZ6t">
-								<Topview />
-								<BoxLeft />
-								<BoxRight/>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <>
+    <Router>
+        <Switch>
+          <Route path='/' exact component={Home}></Route>
+          <Route path='/product' exact component={Products}></Route>
+          <Route path='/reports' exact component={Reports}></Route>
+          <Route path='/reports1' exact component={Reports1}></Route>
+        </Switch>
+      </Router>  
+    </>
   );
 }
 

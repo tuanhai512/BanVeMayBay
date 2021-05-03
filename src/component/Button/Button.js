@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
-import './Button.css'
+import './button.css'
 
 export class Button extends Component {
     render() {
         return (
-            <div className="jddbv">
-                <button className="skijd" type="button">Continue</button>
+            <div className="Booking-button-Continue">
+                <button className="Booking-button-SettingContinue" type="button">
+                     Continue
+                </button>
             </div>
         )
     }

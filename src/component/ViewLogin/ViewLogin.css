@@ -1,19 +1,29 @@
-.swsd2{
+.booking-viewlogin-CachDeu4Canh{
     padding:23px;
-    display: block;
 }
-.dwas2{
+.booking-viewlogin-HinhAnh{
     float: left;
     width: 22%;
 }
-.fjwo3{
+.booking-viewlogin-FontCachDeu{
     margin-bottom: 16px;
 }
-.geoij2{
+.booking-viewlogin-ClFont{
     color: #8F8F8F;
     font-size: 14px;
     line-height: 20px;
     white-space: normal;
     font-weight: 500;
     -webkit-font-smoothing: antialiased;
+}
+.booking-viewlogin-link{
+    margin-left: auto;
+    padding-left: 8px;
+    cursor: pointer;
+    color: #0770CD;
+    font-size: 14px;
+    line-height: 20px;
+    white-space: normal;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
 }

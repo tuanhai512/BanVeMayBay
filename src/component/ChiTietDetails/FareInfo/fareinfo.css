@@ -1,0 +1,33 @@
+.FI-text
+{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.FI-text1{
+    color: rgb(104, 113, 118);
+    margin-bottom: 10px;
+    font-weight: 500;
+
+}
+.FI-text2{
+    font-weight: 600;
+}
+.FI-text3{
+    color: rgb(104, 113, 118);
+    font-weight: 500;
+}
+.FI-khoangcach{
+    margin-bottom: 10px;
+}
+.FI-text4{
+    color: rgb(0, 135, 90);
+    font-weight: 500;
+}
+.FI-text5{
+    color: rgb(104, 113, 118);
+    font-weight: 500;
+}
+.FI-main{
+    margin-bottom: 60px;
+}
