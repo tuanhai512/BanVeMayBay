@@ -1,30 +1,24 @@
 import React,{useState} from 'react'
-import './FirstTab.css';
+import './SecondTab.css';
 import './Destination';
 import { Destination } from './Destination';
 import {AiOutlineSearch} from 'react-icons/ai';
 
-function FirstTab() {
-    const [choice,setChoice]=useState('');
+function SecondTab() {
+   /* const [choice,setChoice]=useState('');
 
     const handleChange=(e)=>{
         setChoice( e.target.value);
-    }
+    }*/
+
 
     return(
-    <div className="button-form-first">
-        <form className="radio-form">
-            <input type="radio" value="male" id="male"
-                onChange={handleChange} name="gender" className="button-radio"/>
-            <label for="male">Male</label>
-
-            <input type="radio" value="female" id="female"
-                onChange={handleChange} name="gender" className="button-radio"/>
-            <label for="female">Female</label>
-
+    <div className="button-form-second">
+        <form className="combo-form">          
+            <label>Đặt combo tiết kiệm lên đến 15%</label>
         </form>
         <form className="select-form">
-                <div className="top-form">
+                <div className="bottom-form" >
                     <p>Điểm khởi hành</p>
                 <select className="select-area">
                     {Destination.map((item,index)=> {
@@ -55,9 +49,7 @@ function FirstTab() {
                         )
                     })}
                 </select>
-                </div>
-                <div className="bottom-form" >
-                    <p>Điểm khởi hành</p>
+                <p>Điểm đến</p>
                 <select className="select-area">
                     {Destination.map((item,index)=> {
                         return(
@@ -67,15 +59,7 @@ function FirstTab() {
                         )
                     })}
                 </select>
-                <tr className="checkbox-area">
-                    <th>
-                    <input type="checkbox" value="Khứ hồi"/>
-                    </th>
-                    <th>
-                        Khứ hồi
-                    </th>
-                </tr>            
-                    <p>Điểm đến</p>
+                <p>Điểm đến</p>
                 <select className="select-area">
                     {Destination.map((item,index)=> {
                         return(
@@ -98,4 +82,4 @@ function FirstTab() {
     );
 }
 
-export default FirstTab
+export default SecondTab

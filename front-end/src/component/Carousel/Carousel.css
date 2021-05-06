@@ -3,12 +3,13 @@
     padding: 0;
 }
 .background-slider{
-    height: 380px;
-    background-color: aqua;
+    height: 340px;
+    background-color: rgb(56, 148, 235);
 }
 .slider{
-    background-color: aqua;
+    background-color: rgb(56, 148, 235);
     height: auto;
+    width: 100%;
 }
 .card-wrapper{
     position:relative;
@@ -52,4 +53,10 @@
 .card.card-image.img:hover{
     transform: translateY(-100px);
     transition: all .9s;
+}
+.slick-next
+{
+    right:0;
+    visibility: hidden;
+    display: none;
 }

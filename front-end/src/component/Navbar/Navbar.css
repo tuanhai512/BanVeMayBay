@@ -1,15 +1,19 @@
 .navbar {
-  background-color: orange;
-  height: 80px;
-  display: flex;
+  background-color: white;
+  height: 50px;
+  display: flex; 
+  width: 100%;
   justify-content: start;
   align-items: center;
 }
-
+.navbar > ul{
+  width: 100%;
+}
 .menu-bars {
-  margin-left: 2rem;
+  margin-left: 120px;
   font-size: 2rem;
   background: none;
+  display: flex;
 }
 
 .nav-menu {
@@ -27,29 +31,31 @@
 .nav-menu.active {
   left: 0;
   transition: 350ms;
+  overflow: auto !important;
+  height: auto;
 }
 
 .nav-text {
   display: flex;
   justify-content: start;
   align-items: center;
-  padding: 8px 0px 8px 16px;
+  padding: 8px 0px 8px 0px;
   list-style: none;
-  height: 60px;
+  height: 40px;
   text-decoration: none;
 
 }
 
 .nav-text a {
   text-decoration: none;
-  color: black;
-  font-size: 18px;
+  color: black ;
+  font-size: 14px;
   width: 95%;
   height: 100%;
   display: flex;
   align-items: center;
   padding: 0 16px;
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav-text a:hover {
@@ -61,9 +67,9 @@
 }
 
 .navbar-toggle {
-  background-color:orange;
+  background-color:white;
   width: 100%;
-  height: 80px;
+  height: 50px;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -77,7 +83,10 @@ span {
 
 .nav-menu-horizontal-items{
   display: flex;
-  margin-left: 500px;
+  position: relative;
+  float: right;
+  
+
  
 }
 #modal{
@@ -89,10 +98,20 @@ span {
 }
 #modal >ul{
   width:400px;
-  height: 100%;
+  height: auto !important;
   background-color: white;
   position: absolute;
   margin-top: 0px;
   margin-left: -5px;
   left: 0;
 } 
+.nav-icon img{
+  width: 150px;
+}
+.menu-bars svg{
+  width: 80px !important;
+  height: 25px;
+  top: 2%;
+  color: #1a83ff  !important;
+  position: sticky  !important;
+}

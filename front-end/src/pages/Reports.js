@@ -1,14 +1,10 @@
-import '../component/comom/booking-reset.css';
-import Header from '../component/comom/Header/Booking-Header.js';
-import Body from '../component/comom/Body/Booking-Body.js';
-
+import React from 'react';
 
 function Reports() {
   return (
-	<div className='reports'>
-		<Header/>
-		<Body/> 
-	</div> 
+    <div className='reports'>
+   
+    </div>
   );
 }
 
