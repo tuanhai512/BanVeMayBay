@@ -1,0 +1,188 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+}
+ol, ul {
+    list-style: none;
+}
+
+._1YLVD {
+    margin-top: 40px;
+}
+._1AkoG{
+    margin-bottom: 36px;
+    margin-top: 12px;
+}
+.booking-main-box{
+    background: #fff;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    display: block; 
+  }
+.box-right {
+    width: 30%;
+    float: left;
+}
+._2319d{
+    padding-top:16px;
+    padding-bottom: 16px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: .3px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+}
+.dkoq{
+    margin-bottom: 16px;
+    position: relative;
+}
+.ff093{
+    box-shadow: 0 0 0;
+    background-color: transparent;
+    display: block;
+    background: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
+.sad1d{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .5px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+}
+._234w8{
+    margin-left: auto;
+    padding-left: 8px;
+    color: #0770CD;
+    font-size: 14px;
+    line-height: 24px;
+    white-space: normal;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 500;
+}
+._SDG75{
+    padding: 16px;
+}
+.BoxAccordionFieldboxAccordionFF .vdInputField, .vdInputFieldnamefirst, .vdInputFieldnamelast {
+    display: inline-table;
+    width: 48%;
+}
+.vdInputFieldemailAddress, .vdInputFieldnamefirst, .vdInputFieldnamelast, .vdPhoneNumberFieldphoneNumber {
+    display: inline-grid;
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.SimpleFormtravelerForm>div>div {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.SimpleFormtravelerForm {
+    -webkit-box-shadow: 0 2px 4px 0 rgb(27 27 27 / 20%);
+    box-shadow: 0 2px 4px 0 rgb(27 27 27 / 20%);
+}
+.GmGpq {
+    display: block;
+    font-size: 15px;
+    color: #434343;
+    margin-bottom: 8px;
+}
+._1ylAf, ._2s99A {
+    color: #d00;
+}
+._3v6Dr {
+    cursor: pointer;
+}
+
+._1VnvT {
+    position: relative;
+}
+._2P9Gi {
+    padding: 8px 16px;
+}
+._6LXde {
+    background: #fff;
+}
+.aLzYS {
+    border: 1px solid #dadada;
+    border-radius: 2px;
+    display: block;
+    position: relative;
+    letter-spacing: .3px;
+}
+._1YJhl {
+    display: table;
+    width: 100%;
+}
+._315kk {
+    display: table-row;
+    vertical-align: middle;
+}
+._1h4cK, ._2fES9 {
+    display: table-cell;
+}
+._1h4cK, ._2fES9, ._2fES9>.svg-icons, ._2fES9>svg {
+    vertical-align: middle;
+}
+._1h4cK {
+    width: 100%;
+}
+._1nWNU {
+    background: transparent;
+    border: none;
+    color: #434343;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    letter-spacing: .3px;
+}
+._1nWNU:focus{
+    outline:none;
+}
+._1ylAf, ._2s99A {
+    color: #d00;
+}
+._2D3rM {
+    line-height: 1.5;
+    font-weight: 300;
+    margin-top: 7px;
+    font-size: 12px;
+    color: #bbbaba;
+}
+._2D3rM {
+    line-height: 1.5;
+    font-weight: 300;
+    margin-top: 7px;
+    font-size: 12px;
+    color: #bbbaba;
+}
+.djoq{
+    padding-top:16px;
+}
+.vdSelectFieldtitle {
+    width: 33.33333%;
+}
+.qwej2{
+margin-bottom: 16px;
+}
+.vdCountryFieldnationality, .vdDateFieldbirthDate {
+    display: inline-table;
+}
+.iqhwo{
+    
+    display: inline-block;
+}

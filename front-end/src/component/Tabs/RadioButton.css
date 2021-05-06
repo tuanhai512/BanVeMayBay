@@ -1,0 +1,35 @@
+.radio-form{
+    position:absolute;
+    left: 0;
+}
+.button-radio{
+    margin-left: 15px;
+}
+.select-form{
+
+    padding-top: 50px;
+}
+.select-form p{
+    margin-left: 15px;
+  
+}
+.top-form{
+    display: flex;
+}
+.bottom-form{
+    margin-top: 20px;
+    display: flex;
+
+}
+.select-area{
+    margin-top: 20px;
+    position: relative;
+    left: -12%;
+    width: 150px;
+}
+.checkbox-area{
+    margin-right: 160px;
+}
+.button-form-first{
+    border-top: 2px solid purple;
+}

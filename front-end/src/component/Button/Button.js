@@ -6,7 +6,7 @@ export class Button extends Component {
         return (
             <div className="Booking-button-Continue">
                 <button className="Booking-button-SettingContinue" type="button">
-                    Continue
+                     Continue
                 </button>
             </div>
         )

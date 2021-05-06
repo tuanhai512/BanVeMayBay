@@ -1,0 +1,38 @@
+.FD-text{
+    font-weight: 700;
+    width: 250px;
+}
+.FD-text2{
+    color: rgb(104, 113, 118);
+    width: 250px;
+}
+.FD-vien{
+    width: 600px;
+    margin-top: 20px;
+    border-radius: 14px;
+    border: 1px solid rgb(116, 116, 116);
+}
+.FD-mid-Top
+{
+    margin: 20px;
+}
+.FD-mid-Top-font{
+    font-weight: 700;
+}
+.FD-mid-Top-font2{
+    font-weight: 500;
+    color: rgb(104, 113, 118);
+}
+.FD-mid-bot{
+    display: flex;
+    width: 550px;
+    margin: 20px;
+    font-weight: 500;
+}
+.FD-mid-botL{
+    color: rgb(104, 113, 118);
+}
+.FD-mid-botR{
+    margin-left: 40px;
+    color: rgb(104, 113, 118);
+}

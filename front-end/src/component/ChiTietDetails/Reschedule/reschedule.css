@@ -1,0 +1,25 @@
+.RCH-text1 {
+  color: rgb(104, 113, 118);
+  font-weight: 500;
+}
+.RCH-text {
+  font-weight: 600;
+}
+.RCH-main {
+  margin-bottom: 40px;
+}
+.RCH-main1 {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+}
+.RCH-BG-non {
+  background-color: rgb(53, 65, 72);
+  border-radius: 14px;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.RCH-non-clfont {
+  color: rgb(205, 208, 209);
+}
