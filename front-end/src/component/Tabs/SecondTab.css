@@ -1,6 +1,30 @@
 .button-form-second{
     top: 2px;
     border-top: 2px solid blue;
+    height: 500px;
+}
+.select-form a{
+    font-size: large;
+    position: absolute;
+    left: 5%;
+    top: 13%;
+}
+.select-formS a
+{
+    font-size: large;
+    position: absolute;
+    left: 5%;
+}
+.select-formS p,.select-formM p{  
+    position: relative;
+    right: 38%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.select-formM a{
+    font-size: large;
+    position: absolute;
+    left: 5%;
 }
 .radio-form{
     position:absolute;
@@ -10,28 +34,66 @@
     margin-left: 15px;
 }
 .select-form{
-
-    padding-top: 50px;
-    padding-left: 50px;
+    box-sizing: border-box;
 }
-.select-form p{
-    margin-left: 15px;
-  
+.select-formM{
+    box-sizing: border-box;
+    padding-top: 5%;
+    }
+.combo-form{
+    background-color: grey;
+    height: 30px;
 }
-.top-form{
+.bottom-formS{
+    height: auto;
+    width: 100%;
     display: flex;
+    position:absolute;
 }
-.bottom-form{
-    margin-top: 10px;
-    display: flex;
+.div-Sdetail{
+    padding: 0 25px;
 }
-.select-area{
-    margin-top: 20px;
+.div-Fdetail p,.div-Sdetail p{
+    float: left;
+    margin-left: 38%;
+}
+.select-areaRM{
+    margin-top: auto;
+    width: 250px;
     position: relative;
-    left: -12%;
-    width: 150px;
-    padding-left: 10px;
+    height: 40px;   
+    align-items: center;
+    border: 1px solid #b4b4b4;
+    border-radius: 4px;
+    box-shadow: inset 0 -2px 1px 0 rgb(27 27 27 / 5%);
+    position: relative;
+    cursor: pointer;
+    overflow: hidden; 
+    float: left;
 }
-.checkbox-area{
-    margin-right: 160px;
+.select-areaRMS{
+    margin-top: auto;
+    width: 100px;
+    position: relative;
+    height: 40px;   
+    align-items: center;
+    border: 1px solid #b4b4b4;
+    border-radius: 4px;
+    box-shadow: inset 0 -2px 1px 0 rgb(27 27 27 / 5%);
+    position: relative;
+    cursor: pointer;
+    overflow: hidden; 
+    float: left;
+}
+.search-button{
+    float: right;
+    background-color: orange;
+    margin-right: 20px;
+    margin-top: 30px;
+    border: white;
+    width: 150px;
+    height: 30px;
+}
+.search-formS{
+    margin-top: 8%;
 }

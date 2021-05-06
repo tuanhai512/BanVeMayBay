@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import FirstTab from './FirstTab';
 import Tabs from "./Tabs";
 import Panel from "./Panel";
+
 import "./Tab.css";
 import SecondTab from "./SecondTab";
 

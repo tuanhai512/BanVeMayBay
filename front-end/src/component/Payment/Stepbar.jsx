@@ -4,8 +4,6 @@ import { Steps } from 'antd';
 function Stepbar(){
   const { Step } = Steps;
   return(
-
-
     <Steps current={1}>
       <Step title="Đặt chỗ" description="This is a description." />
       <Step title="Thanh toán" subTitle="Left 00:00:08" description="This is a description." />

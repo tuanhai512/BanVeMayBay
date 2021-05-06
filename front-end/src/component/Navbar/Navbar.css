@@ -1,14 +1,11 @@
 .navbar {
   background-color: white;
   height: 50px;
-  display: flex; 
-  width: 100%;
+  display: flex;
   justify-content: start;
   align-items: center;
 }
-.navbar > ul{
-  width: 100%;
-}
+
 .menu-bars {
   margin-left: 120px;
   font-size: 2rem;
@@ -83,10 +80,7 @@ span {
 
 .nav-menu-horizontal-items{
   display: flex;
-  position: relative;
-  float: right;
-  
-
+  margin-left: 200px;
  
 }
 #modal{

@@ -5,10 +5,8 @@ import Paymentform from '../component/Payment/Paymentform';
 import Stepbar from '../component/Payment/Stepbar';
 
 function Payment() {
-  return (
-    
-    <div className='paymentform'>
-      
+  return (  
+    <div className='payment'> 
       <Paymentform/>
       <Paymentaside/>
     </div>
