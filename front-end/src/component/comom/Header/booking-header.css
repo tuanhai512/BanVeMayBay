@@ -1,0 +1,50 @@
+body{
+  background-color: #e6eaed!important;
+  font-family: MuseoSans,sans-serif;
+}
+.booking-header{
+  background: #fff;
+    -webkit-box-shadow: 0 0 4px 2px rgb(0 0 0 / 14%);
+    box-shadow: 0 0 4px 2px rgb(0 0 0 / 14%);
+    padding: 16px 0;
+}
+.booking-header-CanhDeu2Ben {
+  width: 900px;
+  margin: 0 auto;
+  overflow: auto;
+  position: relative;
+}
+.booking-header-MucPhai{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.booking-header-SetMucPhai {
+  float: left;
+  position: relative;
+  margin-right: 8px;
+}
+.booking-header-SetMucPhai:not(:first-child) {
+  padding-left: 28px;
+}
+.booking-header-SetMucPhai:not(:first-child):before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  border-top: 2px solid #434343;
+  margin-top: -.5px;
+  background: #434343;
+  opacity: .2;
+}
+.bookcl{
+  color: #1ba0e2;
+  opacity: 1;
+}
+.graycl{
+  color: #adadad;
+  opacity: 1;
+}

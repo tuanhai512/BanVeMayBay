@@ -1,0 +1,25 @@
+.RF-text1{
+color: rgb(104, 113, 118);
+    font-weight: 500;
+}
+.RF-text{
+    font-weight: 600;
+    }
+.RF-main{
+    margin-bottom: 40px;
+}
+.RF-main1{
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+.RF-BG-non{
+    background-color: rgb(53, 65, 72);
+    border-radius: 14px;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.RF-non-clfont{
+    color: rgb(205, 208, 209);
+}

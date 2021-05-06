@@ -1,0 +1,11 @@
+.Booking-button-Continue{
+    text-align: right;
+}
+.Booking-button-SettingContinue{
+    padding: 8px 40px;
+    line-height: 24px;
+    background-color: #0770cd;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+}

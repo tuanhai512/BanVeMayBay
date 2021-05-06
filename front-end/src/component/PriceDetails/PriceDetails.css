@@ -1,0 +1,22 @@
+.PD-text{
+    font-weight: 550;
+    justify-content: space-between;
+    display: flex;
+}
+.PD-form {
+    background-color: rgb(244, 251, 254);
+    padding: 20px;
+    align-items: center;
+}
+.PD-text2{
+    color: #8F8F8F;
+    font-weight: 600;
+}
+.PD-login{
+    margin-left: auto;
+    width: 50px;
+    padding-left: 8px;
+    cursor: pointer;
+    color: #2a82cf;
+    font-weight: 700;
+}
