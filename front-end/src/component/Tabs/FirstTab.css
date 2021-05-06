@@ -1,0 +1,79 @@
+.radio-form{
+    position:absolute;
+    left: 0;
+}
+.button-radio{
+    margin-left: 15px;
+}
+.select-form{
+
+    padding-top: 50px;
+}
+
+.top-form{
+    display: flex;
+    box-sizing: border-box;
+}
+.bottom-form{
+    margin-top: 20px;
+    display: flex;
+    box-sizing: border-box;
+
+}
+.div-Fdetail{
+    margin: 0 25px;
+}
+.select-areaR{
+    margin-top: auto;
+    width: 325px;
+    position: relative;
+    height: 40px;   
+    align-items: center;
+    border: 1px solid #b4b4b4;
+    border-radius: 4px;
+    box-shadow: inset 0 -2px 1px 0 rgb(27 27 27 / 5%);
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    float: left;
+}
+
+.select-area{
+    margin-top: auto;
+    width: 200px;
+    position: relative;
+    height: 40px;   
+    align-items: center;
+    border: 1px solid #b4b4b4;
+    border-radius: 4px;
+    box-shadow: inset 0 -2px 1px 0 rgb(27 27 27 / 5%);
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    float: left;
+}
+
+.button-form-first{
+    border-top: 2px solid purple;
+    height: 250px;
+    width: auto;
+}
+.search-button a{
+    text-decoration: none;
+    color: white ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.search-button{
+    float: right;
+    background-color: orange;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: white;
+    width: 150px;
+    height: 30px;
+}
+.search-button svg{
+    color: aliceblue;
+    font-size: 15px;
+}
