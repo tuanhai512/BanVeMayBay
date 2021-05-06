@@ -78,3 +78,6 @@ li.selected:not(:last-of-type)
 li.selected:not(:first-of-type){
   background-color: blue;
 }
+li.selected:not(::-webkit-search-decoration){
+  background-color: red;
+}

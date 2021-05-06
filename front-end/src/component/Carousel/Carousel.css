@@ -9,6 +9,7 @@
 .slider{
     background-color: rgb(56, 148, 235);
     height: auto;
+    width: 100%;
 }
 .card-wrapper{
     position:relative;
