@@ -37,7 +37,6 @@ input {
 }
 .verticalcontainer > ul > li {
   padding: 10px;
-
   background-color: #073e68;
   color: white;
 }
@@ -53,7 +52,7 @@ input {
   width: 100%;
 }
 .tab-pay {
-  width: 90%;
+  width:90%;
   height: auto;
 }
 .paymentform {

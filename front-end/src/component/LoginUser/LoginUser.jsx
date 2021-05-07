@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {useForm} from 'react-hook-form';
 import axios from 'axios';
 
-export default function Login() {  
+export default function LoginUser() {  
     const {register,
         handleSubmit,
         formState:{errors},
@@ -29,7 +29,7 @@ export default function Login() {
         }
     }
     return (
-        <>
+        <div className="model">
         <form method='post' onSubmit={handleSubmit(onSubmit)}>
             <label htmlFor='email'>Email</label>
             <input {... register("email",{required:true})}/>
@@ -44,7 +44,7 @@ export default function Login() {
 
         </form>
         <button onClick={handleUserProfileClick}>Get user profile</button>
-        </>
+        </div>
     );
 }
 

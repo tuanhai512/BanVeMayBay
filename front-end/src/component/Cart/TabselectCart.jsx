@@ -1,20 +1,20 @@
 import React, { Component } from "react";
 
-class tabSelectCart extends Component {
+class TabSelectCart extends Component {
   state = {
-    choose: this.props.choose || 0, //Tabs được trỏ vào là tab đầu tiên
+    chose: this.props.chose || 0, //Tabs được trỏ vào là tab đầu tiên
   };
 
   handleChange(index) {
-    this.setState({ choose: index }); //Khi chọn vào tabs
+    this.setState({ chose: index }); //Khi chọn vào tabs
   }
 
   render() {
     return (
-      <div className="verticalcontainer">
+      <div className="verticalcontainerC">
         <ul>
           {this.props.children.map((elem, index) => {
-            let style = index === this.state.choose ? "choose" : "";
+            let style = index === this.state.chose ? "chose" : "";
             return (
               <li
                 key={index}
@@ -29,11 +29,11 @@ class tabSelectCart extends Component {
         </ul>
 
         <div className="tab-pay" /*Nội dung con của tab được hiển thị */>
-          {this.props.children[this.state.choose]}
+          {this.props.children[this.state.chose]}
         </div>
       </div>
     );
   }
 }
 
-export default tabSelectCart;
+export default TabSelectCart;

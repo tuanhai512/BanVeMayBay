@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./Cart.css";
-import TabCartForm from "./tabCartForm";
+import TabCartForm from "./TabCartForm";
 
-class cartForm extends Component {
+class CartForm extends Component {
   render() {
     return (
       <div>
@@ -112,7 +112,7 @@ class cartForm extends Component {
                 <div>
                   <h2>Nang tam trai nghiem</h2>
                   <div class="tab-cart">
-                    <TabCartForm />
+                    <TabCartForm/>
                   </div>
                 </div>
               </div>
@@ -164,7 +164,7 @@ class cartForm extends Component {
                     </div>
                   </div>
                 </div>
-                <div class="containdetail">
+                <div class="containdetailbtn">
                   <button class="div-boxbtn box-style">
                     Continue to Booking
                   </button>
@@ -177,4 +177,4 @@ class cartForm extends Component {
     );
   }
 }
-export default cartForm;
+export default CartForm;

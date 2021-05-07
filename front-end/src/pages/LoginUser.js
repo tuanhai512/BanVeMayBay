@@ -1,10 +1,10 @@
 import React from 'react'
-import Login from './LoginUser';
+import LoginUS from '../component/LoginUser/LoginUser';
 
 function LoginUser() {
     return (
-        <div className='login'>
-           <Login/> 
+        <div className='loginUser'>
+           <LoginUS/> 
         </div>
     )
 }
