@@ -1,9 +1,15 @@
 import React, { Component } from "react";
+import FRTop from "../FR-Top/FRTop";
 import "./Cart.css";
+import CartDetailFlight from "./CartDetailFlight";
 import TabCartForm from "./TabCartForm";
+import CartDetailInfo from "./CartDetailInfo";
+
 
 class CartForm extends Component {
+  
   render() {
+   
     return (
       <div>
         <div className="bangmauxanh"></div>
@@ -52,12 +58,7 @@ class CartForm extends Component {
                         className="icon"
                       />
                     </div>
-                    <div class="div-boxauto title">
-                      Hà Nội (HAN) → TP HCM (SGN) | Date
-                    </div>
-                    <a href="#" class="detailbutton">
-                      Flight
-                    </a>
+                   <CartDetailFlight/>
                   </div>
                   <div>
                     <div class="containdetail">
@@ -112,7 +113,7 @@ class CartForm extends Component {
                 <div>
                   <h2>Nang tam trai nghiem</h2>
                   <div class="tab-cart">
-                    <TabCartForm/>
+                    <TabCartForm />
                   </div>
                 </div>
               </div>
@@ -122,14 +123,7 @@ class CartForm extends Component {
                 <div class="div-containerArt box-style">
                   <div class="containdetail">
                     <div class="div-boxauto">(icon)</div>
-                    <div class="div-boxauto titlesection title">
-                      Additional Information
-                    </div>
-                    <div>
-                      <a href="#" class="detailbutton">
-                        Detail
-                      </a>
-                    </div>
+                    <CartDetailInfo/>
                   </div>
                   <div>
                     <hr />

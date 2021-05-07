@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "antd/dist/antd.css";
 import "./PriceDetails.css";
 import { Collapse ,Modal  } from "antd";
-import Login from '../Login/Login.js'
+import Login from '../Login/Login.jsx'
 
 function PriceDetails() {
   const [isModalVisible, setIsModalVisible] = useState(false);

@@ -8,6 +8,11 @@
 .booking-viewlogin-FontCachDeu{
     margin-bottom: 16px;
 }
+.booking-login-link{
+    font-weight: 550;
+    cursor: pointer;
+    color: #5e91ff;
+}
 .booking-viewlogin-ClFont{
     color: #8F8F8F;
     font-size: 14px;

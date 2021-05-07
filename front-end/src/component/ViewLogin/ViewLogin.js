@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./viewlogin.css";
+import "./ViewLogin.css";
 import "antd/dist/antd.css";
 import { Modal } from "antd";
-import Login from "../Login/Login.js";
+import Login from "../Login/Login.jsx";
 
 function ViewLogin() {
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -29,7 +29,7 @@ function ViewLogin() {
               Book faster and easier with Passenger Quick Pick
             </span>
           </div>
-          <div className="booking-viewlogin-link" onClick={showModal}>
+          <div className="booking-login-link" onClick={showModal}>
             Log In or Register
           </div>
           <Modal
