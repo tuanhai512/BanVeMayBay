@@ -26,10 +26,6 @@
     position: absolute;
     left: 5%;
 }
-.radio-form{
-    position:absolute;
-    left: 0;
-}
 .button-radio{
     margin-left: 15px;
 }
@@ -56,6 +52,19 @@
 .div-Fdetail p,.div-Sdetail p{
     float: left;
     margin-left: 38%;
+}
+.select-areaM{
+    width: 200px;
+    position: relative;
+    height: 40px;   
+    align-items: center;
+    border: 1px solid #b4b4b4;
+    border-radius: 4px;
+    box-shadow: inset 0 -2px 1px 0 rgb(27 27 27 / 5%);
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    float: left;
 }
 .select-areaRM{
     margin-top: auto;
@@ -94,6 +103,15 @@
     width: 150px;
     height: 30px;
 }
+.checkbox-areaS {
+    padding-top: 4%;
+    float: left;
+}
+
 .search-formS{
     margin-top: 8%;
+}
+.checkbox-areaS input{
+    float: left;
+    left: 20%;
 }

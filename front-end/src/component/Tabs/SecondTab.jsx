@@ -56,11 +56,11 @@ function SecondTab() {
             </select>
           </div>
           <div  className="div-Fdetail">
-            <div className="checkbox-area">
+            <div className="checkbox-areaS">
               <input type="checkbox" value="Khứ hồi" />
               <span>Khứ hồi</span>
+            <div className="select-areaM"></div>
             </div>
-            <div className="select-area"></div>
           </div>
           <div  className="div-Fdetail">
             <p>Hạng ghế</p>

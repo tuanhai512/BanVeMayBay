@@ -1,12 +1,12 @@
 import React from 'react'
 import { Destination } from './Destination';
-
+import './FirstTab.css';
 
 
 function FirstTabOneWay() {
     return (
         <div>
-            <form className="select-form">
+        <form className="select-form">
         <div className="top-form">
           <div className="div-Fdetail">
             <p>Điểm khởi hành</p>
@@ -46,8 +46,9 @@ function FirstTabOneWay() {
             <div className="checkbox-area">
               <input type="checkbox" value="Khứ hồi" />
               <span>Khứ hồi</span>
+           
+            <div className="select-areaM"></div>
             </div>
-            <div className="select-area"></div>
           </div>
           <div  className="div-Fdetail">
             <p>Hạng ghế</p>
