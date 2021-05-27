@@ -134,7 +134,18 @@
     display: flex;
     position: relative;
 }
-.content{
-    width: 100%;
+.content1{
+    width: 68%;
     height: 100%;
+    left: 15%;
+    position: relative;
+    border: none;
+    background-color: white;
+}
+.item-content-children{
+    margin-left: 10%;
+   
+}
+.item-content{
+display: flex;
 }

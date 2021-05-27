@@ -4,6 +4,7 @@ import "./Cart.css";
 import CartDetailFlight from "./CartDetailFlight";
 import TabCartForm from "./TabCartForm";
 import CartDetailInfo from "./CartDetailInfo";
+import { Link } from "react-router-dom";
 
 
 class CartForm extends Component {
@@ -159,9 +160,11 @@ class CartForm extends Component {
                   </div>
                 </div>
                 <div class="containdetailbtn">
-                  <button class="div-boxbtn box-style">
-                    Continue to Booking
+                <Link to="/booking">
+                  <button class="div-boxbtn box-style">      
+                    Continue to Booking               
                   </button>
+                  </Link>
                 </div>
               </div>
             </nav>

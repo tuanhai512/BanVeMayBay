@@ -5,7 +5,7 @@ import '../component/commom/booking-reset.css'
 
 function Reports() {
   return (
-    <div className='reports'>
+    <div className='booking'>
       <Header/>
       <Body/>
     </div>
