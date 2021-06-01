@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Collapse } from "react-collapse";
 import ItemChild from "./ProductItemChild";
 import { Link } from "react-router-dom";
-export default function ProductItem({cName, start, title, time_start, time_end, end, style, price, time}) {
+export default function ProductItem({cName, start, title, time_start, time_end, destination, style, price, time}) {
  
  const [isOpen, setIsOpen] = useState(false)
  
@@ -27,7 +27,7 @@ export default function ProductItem({cName, start, title, time_start, time_end, 
               <div className="{cName} item2">
                 <a>{time_end} </a>
                 <br />
-                <a>{end}</a>
+                <a>{destination}</a>
               </div>
               <div className={cName}>
                 <a>{time}</a>
@@ -57,8 +57,8 @@ export default function ProductItem({cName, start, title, time_start, time_end, 
       <Collapse isOpened={isOpen}>
       
         <ItemChild start={start}     
-         time_start={time_start}
-         end={end}
+         time_start={time_start} 
+         destination={destination} 
          cName={cName}
          title={title}
          time_end={time_end}

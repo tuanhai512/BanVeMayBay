@@ -37,8 +37,15 @@
     padding-top: 5%;
     }
 .combo-form{
-    background-color: grey;
-    height: 30px;
+    background-color: whitesmoke;
+    height: 40px;
+    font-size: medium;
+}
+.combo-form label {
+    position: relative; 
+    color: black;
+    float: left;
+    margin-left: 50px;
 }
 .bottom-formS{
     height: auto;
@@ -47,7 +54,7 @@
     position:absolute;
 }
 .div-Sdetail{
-    padding: 0 25px;
+    padding: 0 20px;
 }
 .div-Fdetail p,.div-Sdetail p{
     float: left;

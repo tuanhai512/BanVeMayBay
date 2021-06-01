@@ -55,17 +55,13 @@
 }
 
 .nav-text :hover {
-  background-color: #1a83ff;
-  height: 100%;
  
-}
-.nav-text a:hover {
-  align-items: center;
+ 
  
 }
 
-.nav-menu-items {
-}
+
+
 
 .navbar-toggle {
   background-color:white;

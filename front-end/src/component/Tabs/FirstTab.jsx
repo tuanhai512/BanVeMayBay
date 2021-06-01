@@ -26,7 +26,7 @@ function FirstTab() {
           name="way"
           className="button-radio"
         />
-        <label for="male">One-way / Round-trip</label>
+        <label for="male">Một chiều / Khứ hồi</label>
 
         <input
           type="radio"
@@ -36,7 +36,7 @@ function FirstTab() {
           name="way"
           className="button-radio"
         />
-        <label for="female">Multi-city</label>
+        <label for="female">Nhiều thành phố</label>
       </form>
       { choice === "oneway" ? (
        <FirstTabOneWay/>

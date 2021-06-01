@@ -1,5 +1,5 @@
 .body{
-    background-color: rgb(235, 235, 235);
+    background-color: whitesmoke;
     width: 100%;
     height: 100%;
 }
@@ -56,12 +56,24 @@
 }
 .header-item
 {
-    margin-right: 150px;
+    margin-right: 50px;
     cursor: pointer;
+}
+.header-item > ul > li
+{
+    background-color: #eae9e6;
+    float: left;
+    height: 30px;  
+    border-radius: 12%;
+    margin-left: 50px;
+
 }
 .header-item > ul a
 {
-    margin-right: 50px;
+   margin: 0px 20px 0px 20px ;
+   position: relative;
+   top: 5px;
+    color: #00adff;
 }
 .card-flight
 {
@@ -73,6 +85,7 @@
     background-color: white;
    display: flex;
    border-radius: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .flight-content-left
 {
@@ -83,6 +96,7 @@
 }
 .flight-content-left a
 {
+    color: black;
     width: 150px;
     margin-left: 50px;
 }
@@ -97,6 +111,7 @@
 }
 .item2 a
 {
+    color: black;
    width: 200px;
    margin-left: 0;
 }
@@ -111,6 +126,7 @@
 }
 .flight-content-bottom a
 {
+    color: rgb(127, 148, 245);
     width: 300px;
     display: flex;
     cursor: pointer;
@@ -139,6 +155,7 @@
     height: 100%;
     left: 15%;
     position: relative;
+    top:-30px;
     border: none;
     background-color: white;
 }

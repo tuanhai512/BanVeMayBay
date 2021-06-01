@@ -63,18 +63,26 @@
 .content{
   background-color: rgb(255, 255, 255);
   box-sizing: border-box;
-  border: 1px solid grey;
+  
   position: relative;
-  box-shadow: -3px 10px rgba(0, 0,0, 0.3);
+  box-shadow: 1px 2px 5px 0px rgba(0, 0,0, 0.3);
+
   width: 950px;
+  border-radius: 1%;
 }
 .main-container > ul > li{
   background-color: white;
+  width: 150px;
+  border-radius: 3%;
+  height: 50px;
 }
 li.selected:not(:last-of-type)
 {
-  background-color:purple
+  background-color:purple;
+  color: white;
 }
 li.selected:not(:first-of-type){
   background-color: blue;
+  color: white;
+  
 }
