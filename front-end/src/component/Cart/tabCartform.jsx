@@ -5,6 +5,7 @@ import TabSelectCart from "./TabSelectCart";
 import "./Cart.css";
 import "../Tabs/Tabs";
 import Panel from "../Tabs/Panel";
+import Tabcart3 from "./Tabcart3";
 
 class TabCartForm extends Component {
   render() {
@@ -16,9 +17,14 @@ class TabCartForm extends Component {
               <Tabcart1 />
             </div>
           </Panel>
-          <Panel title="SkyBoss" className="Panel">
+          <Panel title="Deluxe" className="Panel">
             <div className="content-cart">
               <Tabcart2 />
+            </div>
+          </Panel>
+          <Panel title="SkyBoss" className="Panel">
+            <div className="content-cart">
+              <Tabcart3 />
             </div>
           </Panel>
         </TabSelectCart>
