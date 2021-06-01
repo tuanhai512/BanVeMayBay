@@ -10,7 +10,7 @@ import Payment4 from "./Payment4";
 class Paymentform extends Component {
   render() {
     return (
-      <article>
+      <div className='form-left'>
         <Paymentselecttab className="Tabs" /*tab cha*/>
           <Panel title="Thẻ tín dụng" className="Panel" /*tabs con*/>
             <div className="content-pay" /*Hiển thị nội dung tabs con */>
@@ -33,7 +33,7 @@ class Paymentform extends Component {
             </div>
           </Panel>
         </Paymentselecttab>
-      </article>
+      </div>
     );
   }
 }
