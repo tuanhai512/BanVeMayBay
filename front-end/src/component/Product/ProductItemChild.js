@@ -24,7 +24,7 @@ export default function ItemChild({
         }}
       >
         <Timeline.Item label="22:15 01 May">
-          <div className="FD-text">{start}</div>
+          <div className="FD-text">{start}</div> giống như this.name á
           <div className="FD-text2">Noibai International Airport</div>
           <div className="FD-vien">
             <div className="FD-mid-Top">

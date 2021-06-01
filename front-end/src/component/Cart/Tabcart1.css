@@ -2,8 +2,12 @@
     width: 100%;
 }
 .tab-cart1 h2{
-    
+font-weight: bold;
     border-radius:0 5 0 0 ;
+}
+.tab-cart1 p{
+    text-align: left;
+    padding-left: 10px;
 }
 .icon-cart{
     height: 15px;
